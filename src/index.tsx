@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {User} from "./Callback/06-callback";
+import {User} from "./06/06-callback";
+
 
 ReactDOM.render(
   <React.StrictMode>
     <User />
+    {/*<Destructuring/>*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
